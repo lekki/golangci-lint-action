@@ -16,14 +16,8 @@ Use by building from repository
 
 ```YAML
 - name: Run GolangCI-Lint Action by building from repository
-  uses: matoous/golangci-lint-action@v1.1.0
+  uses: lekki/golangci-lint-action@v1.1.1
 ```
-
-Use by pulling pre-built image *(faster execution time, less secure)*
-
-```YAML
-- name: Run GolangCI-Lint Action by pulling pre-built image
-  uses: docker://matoous/golangci-lint-action:v1.1.0
 ```
 
 Configuration
